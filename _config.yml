@@ -22,8 +22,7 @@ title: Jeff McGovern
 email: jeff@jdmcg.org
 logo: assets/img/avatar.jpg
 description: >- # this means to ignore newlines until "baseurl:"
-  A bounty hunter in a former life, Jeff was born again into a philanthropic
-  hero for the weak and tired.
+  Software engineer based in the South Bay Area with a background in computer science, mathematics, and physics.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.jdmcg.org" # the base hostname & protocol for your site, e.g. http://example.com
