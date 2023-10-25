@@ -29,6 +29,8 @@ url: "https://blog.jdmcg.org" # the base hostname & protocol for your site, e.g.
 twitter_username: rectangleboy
 github_username:  jmcgover
 
+timezone: America/Los_Angeles
+
 google_analytics: G-P7X1M97HRT
 
 github:
@@ -43,6 +45,21 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+  - jekyll-compose
+
+jekyll_compose:
+  post_default_front_matter:
+    last_modified_at: 
+    permalink: 
+    description:
+    image:
+    published: true
+    sitemap: true
+    excerpt_separator: <!--more-->
+    categories:
+    tags:
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -63,3 +80,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
