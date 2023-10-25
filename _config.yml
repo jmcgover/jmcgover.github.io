@@ -50,16 +50,23 @@ plugins:
   - jekyll-compose
 
 jekyll_compose:
-  post_default_front_matter:
-    last_modified_at: 
-    permalink: 
-    description:
-    image:
-    published: true
-    sitemap: true
-    excerpt_separator: <!--more-->
-    categories:
-    tags:
+  default_front_matter:
+    drafts:
+      created_at:
+      last_modified_at:
+      description:
+      image:
+      category:
+      tags:
+    posts:
+      created_at:
+      last_modified_at:
+      description:
+      image:
+      category:
+      tags:
+      published: false
+      sitemap: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
