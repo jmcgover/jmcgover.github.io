@@ -96,6 +96,7 @@ Subcommands:
     - [ ] Link to latest commit
     - [ ] Figure out what makes GitHub Pages' way of loading websites incompatible with running commands
     - [ ] Play with some ideas to use `git log` to create a log file that the HTML can lookup
+    - [ ] Create a changlist at the bottom of each page, assuming we can use the above point
     - [x] Show "Page Last Modified"
 - [ ] Social Links
     - [ ] Make them dynamic in my setup thingy somehow?
