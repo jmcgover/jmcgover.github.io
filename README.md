@@ -92,6 +92,8 @@ Subcommands:
 - [ ] Post using that Jekyll extension
 - [x] Serve locally
 ### Features
+- [ ] Tags/Categories
+    - [ ] Figure out how to get a link onto a tag/category/whatever
 - [ ] Last Modified
     - [ ] Link to latest commit
     - [ ] Figure out what makes GitHub Pages' way of loading websites incompatible with running commands
